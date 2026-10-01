@@ -14,9 +14,5 @@
     "react": "19.2.3",
     "react-native": "0.86.3"
   },
-  "private": true,
-  "devDependencies": {
-    "@types/react": "^19.3.0",
-    "typescript": "^7.0.2"
-  }
+  "private": true
 }
