@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "STT Test",
+    "slug": "stt-test",
+    "version": "1.0.0",
+    "scheme": "stt-test",
+    "android": {
+      "package": "com.stttest.app",
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "برای تست STT به میکروفون نیاز داریم.",
+          "speechRecognitionPermission": "برای تست STT به این دسترسی نیاز داریم.",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox",
+            "com.google.android.tts"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
