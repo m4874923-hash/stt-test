@@ -6,7 +6,10 @@
     "scheme": "stt-test",
     "android": {
       "package": "com.stttest.app",
-      "permissions": ["RECORD_AUDIO"]
+      "permissions": [
+        "RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "plugins": [
       "expo-router",
@@ -22,13 +25,15 @@
         }
       ]
     ],
-      "experiments": {
+    "experiments": {
       "typedRoutes": true
     },
     "extra": {
+      "router": {},
       "eas": {
-        "projectId": "95161e05-07ea-47cc-a693-d09922ded6fa"
+        "projectId": "f38e297b-ee32-43a9-a587-0f03866917f6"
       }
-    }
+    },
+    "owner": "m4874923"
   }
-}     
+}
